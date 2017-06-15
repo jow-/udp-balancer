@@ -1,0 +1,8 @@
+handle-gelf
+send-buffer 0x10000000
+recv-buffer 0x10000000
+
+listen 127.0.0.1:12201
+upstream 127.0.0.1:12202
+upstream 127.0.0.1:12203
+upstream 127.0.0.1:12204
